@@ -2,7 +2,7 @@
 Specifics to come.
 
 # Progress log
-Including general overviews, problems, intended solutions, outcomes, and main takeaways for TL;DR (in that order).
+Each day including general overviews, problems, intended solutions, outcomes, and main takeaways for TL;DR (in that order).
 
 -------------------------------------------------------------
 

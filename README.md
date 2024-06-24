@@ -37,7 +37,7 @@ Allanah has a research trip this week so I am delving deeper into the reading an
 ## Friday 14th June - 
 It's been a while since I updated the log, this is due to there only being one meeting since the previous log, and also both Allanah and I had other things going on. Since the last log, I successfully carried out steps 1, 2 and 3 from the Main takeaways. Moving on, the most recent meeting we went over the equations that Sneyd uses in the book to derive certain characteristics and create specific plots for the pump-leak model, which is what we are looking at right now. The pump-leak model is effectively a process by which a cell uses both active and passive transport in controlling its volume as well as its charge and ion population. When we went over these equations two things were apparent. 
 
-##Problem:
+### Problem:
 
 I didn't yet know enough around the subject to fluently communicate my thoughts, and as such didn't understand the topic to a sufficient depth.
 
@@ -64,7 +64,7 @@ I've made some progress since the last log, successfully finding where every com
 ## Monday 24th June -
 Allanah and I have a meeting today and on Friday. Last meeting we went over the method in Sneyd's book that he uses to solve these complex differential equations. Non-dimensionalisation. It is a method by which you reduce a variable (with it's dimensions) like V m/s to just a constant like A. You do this by dividing by another variable that has the same units. So we could divide two velocities by each other. This allows Sneyd to disregard lots and lots of constants, as well being an integral part of asymptotic analysis. With this method we can see which components of equations are important to what we are looking at. For instance if we were to reduce a voltage equation to a non-dimensional variable and in the variable we had a constant worth 1x10^-10 of the magnitude of other components, we can ignore it for a specific solution. After solving, we then can re-contextualise to make the reader understand. This is a very difficult thing to navigate so I had to do so carefully. Sneyd's book was a little hard to follow given the intended audience, as such I encountered several problems last week.
 
-## Problem:
+###  Problem:
 
 Not fully understanding Sneyd's steps in solving the pump-leak model, and not knowing how to properly navigate non-dimensionalisation (or really what it is).
 

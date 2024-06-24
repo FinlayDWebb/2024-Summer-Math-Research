@@ -1,7 +1,8 @@
 # 2024-Summer-Math-Research
 Specifics to come.
 
-#progress log
+# Progress log
+Including general overviews, problems, intended solutions, outcomes, and main takeaways for TL;DR (in that order).
 
 -------------------------------------------------------------
 

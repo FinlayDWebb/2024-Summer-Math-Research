@@ -86,4 +86,28 @@ An excellent section of notes that really helps me to understand the topic bette
    
 -------------------------------------------------------------
 
+## Thursday 25th June - Plot-physiology-first Jupyter NB attached
+Monday's meeting with Allanah, was primarily around making plots for what we have found so far. My experience in programming at this point is just R, yet going forward we were just to use Python in this project. The idea before the next meeting (Friday) was quite simple. Re-create Sneyd's plots in the book, look into the Goldman-Hodgkin-Katz Equation, and bifurcation theory. All of these to try and refine all the models we have seen so far, by using non-linear relationships, and to look at how we can move toward actually conducting the new research. In creating the plots I came accross a problem.
 
+### Problem:
+
+The plot that I coded looked nothing like Sneyd's plot. And Sneyd didn't elaborate on the specifics of his plot.
+
+### Intended solution:
+
+1. In detail write down all of the different variables/functions Sneyd could have used i.e. did Sneyd use the precise model for pump rate or did he use the non-dimensional version of it (which would make the model less accurate). 
+2. And then try them out in different combinations, to find out what he likely used in the book's plot.
+
+### Outcome:
+
+1. 2 plots that look exactly like Sneyd's plot. With more insight into the technicals behind the plot; a better insight into the relationship between the pump-rate of the cell's pump and cell volume or cell membrane potential. 
+2. One HUGE thing that came out of this trial and error, was that it implied that conductance, (gamma = g_na / g_k), in the model played a very important role in the end behaviour of the relation between pump-rate and cell volume. Before, when I was using the precise derivation of gamma, the behaviour was stable at ~0.6 cell volume as pump-rate tended to infinity. However, Sneyd used an assumption that gamma = 0.11, and his end behaviour was that cell volume tended to infinity as pump-rate tended to 14. Giant difference. 
++ + This is good news, as my work with this entire research project is making the variable conductance more accurate in a pre-determined model, by examining experimental data; so it's likely to have a decent impact when I do.
+
+### Main takeaways:
+1. I successfully learned how to use Python, NumPy and Matplot to intuitive visualise the relationships between the models I have been studying/deriving mathematically.
+2. I successfully discovered the assumptions that Sneyd used in his book, in order to make my plots a more accurate emulation of his.
+3. I discovered that conductance is an important component in these models, which foreshadows my research/work on all of this will have a tangible effect.
+4. I better understand what the GHK Equation is, and what bifurcation theory is.
+
+-------------------------------------------------------------

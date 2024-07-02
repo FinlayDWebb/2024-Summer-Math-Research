@@ -112,7 +112,7 @@ The plot that I coded looked nothing like Sneyd's plot. And Sneyd didn't elabora
 
 -------------------------------------------------------------
 
-## Tuesday 2nd July - 
+## Tuesday 2nd July - Plot-physiology-linear Jupyter NB attached
 Today's meeting we went over my plots that I had made the week prior, overall they were accurate, but with a few issues. My plot of pump rate against membrane potential didn't include the individual equilibrium potentials of sodium and potassium, and my global minimum didn't quite match up with the book's values. So we decided to add the two equilibrium potentials onto the same plot. This again was an issue for us as we couldn't seem to derive what the equations that led to the plot actually were. This is laid out below.
 
 Other than going over the plotting issue, we also discussed the overall project, Allanah said that she is asking her supervisor about what she wants out of the data. If a specific instruction is given then we will finish up this foundational exploration and begin unique research, if not, we will discuss which direction to go into. In the meantime I am to look at the non-linear model of the Goldman-Hodgkin-Katz Equation and re-do all of the solving using non-dimensionalisation, in order to precisely derive plots for relationships between pump rate and cell volume or membrane potential. Further, with a non-linear model we can conduct some minor bifurcation theory, something that will be very interesting to explore and write up about.

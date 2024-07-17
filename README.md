@@ -137,3 +137,12 @@ Other than going over the plotting issue, we also discussed the overall project,
 3. After completing the more complex model, I need to look into bifurcation theory to prepare for later on in the project.
 
 -------------------------------------------------------------
+
+## Wednesday 17th July - 
+Over the last 2 weeks, I have just been solidifying my understanding of the different mechanisms used in different texts. In Sneyd's book and our earlier plots, we used very simple models, that lacked accuracy yet made up for it in ease of manipulation. Now we are moving into the more complicated components, such as the GHK equation as considered and talked about in the above log (Tuesday 2nd July). More recently, I have been reading Allanah's supervisor's paper, and going through the references. Paying specific detail to Strieter, and Ussing too. My new findings are that the new mechanisms don't rely on linear relationships describing currents, but instead use non-linear ones as it makes the analysis and solving more easy (it doesn't hurt that it is also more precise). The goal for this section of the research is to really build up intuition and broad understanding, as it is soon that we start conducting the research.
+
+### TL:DR | Main takeaways:
+1. I now have detailed notes outlining the differences between the mechanisms utilised by Sneyd compared to Mariia (Strieter), and how Ussing plays a part in the latter's development.
+2. I feel much more confident in my ability to communicate with my supervisor about the topic as a whole, the difference between now and 2 months ago is vast.
+
+-------------------------------------------------------------

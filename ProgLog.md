@@ -146,3 +146,8 @@ Over the last 2 weeks, I have just been solidifying my understanding of the diff
 2. I feel much more confident in my ability to communicate with my supervisor about the topic as a whole, the difference between now and 2 months ago is vast.
 
 -------------------------------------------------------------
+
+## Saturday 3rd August - Plot-StrieterFlux.ipynb
+It's been a while since my last update, as I was working away from home for a good chunk of time. We have a meeting tomorrow about differing mechanisms and the next direction for the project. Attached to this commmit is a notebook of a small intuition exercise I was curious about. In the new mechanisms I wanted to observe the effects of changing intracellular concentrations of sodium and how this would effect the flux in Strieter's model, within Mariia's paper; so I plotted it. I did this ahead of tomorrow's meeting to refresh my mind on the topic.
+
+-------------------------------------------------------------

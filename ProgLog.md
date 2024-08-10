@@ -170,12 +170,12 @@ Recently Allanah and I have had several meetings in quick succession. What we ha
 ### Outcome: 
 
 After carrying out the first 4 steps, I am still a little lost on what the issue is with the Cotransporter equation. This will require some handwritten calculations later on in the day. I will update this log after doing so.
-TBC
+Okay, after doing some calculations and doing some reading on possible causes I decided to implement "np.float64" into my code, in order to combat rounding issues. What happens is my Cotransporter flux equation is outputting such a small value that Python is treating it as 0, what my changes hoped to do was stop this. However, I am still seeing the run time error, and hence that the logarithm isn't valid for all the values being inputted. This problem remains unfixed for now.
 
 ### TL;DR | Main takeaways:
 1. We now have a proper skeleton of what the written up paper/report will look like.
 2. I learned how to solve a complex system of differential and algebraic equations with SciPy, utilising Matplotlib.
-3. I was able to optimise the system of equations by altering the Cotransporter flux equation to avoid the run time warning.
-4. Going forward, before next meeting I want to unassume that the voltage is the same at the intra-apical membrane and the intra-basal membrane, this will involve assuming the system is an open circuit and then solving it; and could result in some interesting conclusions.
+3. I tried different ways to optimise the Cotransporter flux function, in order to combat run time warnings and losses of precision, but haven't yet fixed it properly.
+4. Going forward, before next meeting I want to unassume that the voltage is the same at the intra-apical membrane and the intra-basal membrane, this will involve assuming the system is an open circuit and then solving it; and could result in some interesting conclusions. As well as try to fix the Cotransporter issue.
 
 -------------------------------------------------------------

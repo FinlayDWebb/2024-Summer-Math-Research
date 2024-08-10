@@ -151,3 +151,31 @@ Over the last 2 weeks, I have just been solidifying my understanding of the diff
 It's been a while since my last update, as I was working away from home for a good chunk of time. We have a meeting tomorrow about differing mechanisms and the next direction for the project. Attached to this commmit is a notebook of a small intuition exercise I was curious about. In the new mechanisms I wanted to observe the effects of changing intracellular concentrations of sodium and how this would effect the flux in Strieter's model, within Mariia's paper; so I plotted it. I did this ahead of tomorrow's meeting to refresh my mind on the topic.
 
 -------------------------------------------------------------
+
+## Saturday 10th August - InitialAlgPhysioSolve.ipynb
+Recently Allanah and I have had several meetings in quick succession. What we have laid out is a general scheme for producing the final report, involving motivation, model setup, model solution and then considerations of a dynamic solution as well as utilising the experimental data we now have, to fine tune our parameters and assumptions around passive transport and the GHK flux equation. From this I have recently (today) been working with SciPy in solving a system of equations, plotting out individual variables and confirming that our results are similar to ones found in other papers. However, I have just ran into an issue surrounding my equation for the cotransporter flux, and specifically an issue that the model has with the concentration inputs. I will lay this out in the following subsection:
+
+### Problem:
+
+'RuntimeWarning: invalid value encountered in log Cotransporter'. This is an issue that SciPy has with small parameters within the flux equation for ion movement through the Cotransporter. Making our overall solution less accurate that we would like it to be. 
+
+### Intended solution: 
+
+1. Assume that the initial inputs into the system of equations is the exact (or near exact) values found in other papers. 
+2. Replace one of the concentration variables with a for loop, and plot it against the voltage with Matplotlib.
+3. Observe how the voltage changes in hopes of discovering what is going wrong in the Cotransporter equation.
+4. Repeat with each concentration.
+5. Change the equation accordingly, so that we dont ecounter the run time warning.
+
+### Outcome: 
+
+After carrying out the first 4 steps, I am still a little lost on what the issue is with the Cotransporter equation. This will require some handwritten calculations later on in the day. I will update this log after doing so.
+TBC
+
+### TL;DR | Main takeaways:
+1. We now have a proper skeleton of what the written up paper/report will look like.
+2. I learned how to solve a complex system of differential and algebraic equations with SciPy, utilising Matplotlib.
+3. I was able to optimise the system of equations by altering the Cotransporter flux equation to avoid the run time warning.
+4. Going forward, before next meeting I want to unassume that the voltage is the same at the intra-apical membrane and the intra-basal membrane, this will involve assuming the system is an open circuit and then solving it; and could result in some interesting conclusions.
+
+-------------------------------------------------------------

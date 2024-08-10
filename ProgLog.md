@@ -176,6 +176,9 @@ Okay, after doing some calculations and doing some reading on possible causes I 
 1. We now have a proper skeleton of what the written up paper/report will look like.
 2. I learned how to solve a complex system of differential and algebraic equations with SciPy, utilising Matplotlib.
 3. I tried different ways to optimise the Cotransporter flux function, in order to combat run time warnings and losses of precision, but haven't yet fixed it properly.
-4. Going forward, before next meeting I want to unassume that the voltage is the same at the intra-apical membrane and the intra-basal membrane, this will involve assuming the system is an open circuit and then solving it; and could result in some interesting conclusions. As well as try to fix the Cotransporter issue.
+
+4. Going forward, before the next meeting I want to fix the Cotransporter issue. I also want to make sure that my precision with np.float64 is implemented over the whole code, so that I don't run into the issue I have right now in the plots, where the red dot isn't on the plotted line. 
+
+5. Also, optimistically, before next meeting I want to unassume that the voltage is the same at the intra-apical membrane and the intra-basal membrane, this will involve assuming the system is an open circuit and then solving it; and could result in some interesting conclusions.
 
 -------------------------------------------------------------

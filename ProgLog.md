@@ -182,3 +182,24 @@ Okay, after doing some calculations and doing some reading on possible causes I 
 5. Also, optimistically, before next meeting I want to unassume that the voltage is the same at the intra-apical membrane and the intra-basal membrane, this will involve assuming the system is an open circuit and then solving it; and could result in some interesting conclusions.
 
 -------------------------------------------------------------
+
+# Sunday 26th August
+Currently on my way back from the UK Mathematics Trust Summer School (NMSS 64). I had an excellent time, meeting lots of very interesting people excelling in their respective fields. I led a session on decimals and periodicity to the juniors, the students consisted of a randomly selected 35(ish) students from the top 1.5% performer on the Intermediate Maths Challenge. I also assisted with a session on Ramsey Theory to the seniors, the students in this group consisted of BMO1 and BMO2 candidates, ex-PROMYS students and incoming Oxford math undergrads. It was an eye-opening experience, and I now am entertaining the idea of pursuing a research position around the topic of Ramsey Theory next Summer. 
+
+Getting back to the current research, not much progress has happened since the last entry. Allanah and I are still wrestling with correcting the code/equations to fit our predicted outcomes. Hopefully, we can make some progress before school starts back up, if we can't, then so be it. I can outline a small problem I did encounter, but is yet to be resolved:
+
+### Problem
+Once running the fsolve function, we were seeing numerous issues. A runtime warning, an invalid divisor and eventually incorrect outputs. All of these issues revolved around the CotransporterFlux function, an issue with the log componenet. This was something I really tried a lot of angles on.
+
+### Intended Solution
+1. First I tried to make the outputs and inputs more accurate, by using np.float64, as mentioned in the last log entry.
+2. After this, I tried to re-define the CotransporterFlux, in sections. Firstly, it would calculate the ratio, then run the ratio through the log. This was an effort to observe where the issue was occuring.
+3. Finally, I fixed the values of the ratio (argument of the log) to non-zero positive values, in order to try and circumvent the invalid divisor issue. I did this using an 'if-then' argument, assigning small and negative values of ratio to epsilon, which in itself was the lower bound for positive values in NumPy.
+
+### Outcome
+After implementing step 3, I was able to get rid of the runtime warning, but then the output of the solving script was false. We have experimental data and data obtained from other publications and our ouputs weren't matching. This I thought was due to my assigning of epsilon. In the end, I sent the code over to Allanah in hopes of a different perspective helping us out. This is where we are right now.
+
+### TL;DR | Main takeaways:
+1. I wasn't able to fix the code to achieve the variable outputs we were looking for.
+2. I did explore several new angles not previously considered when running into compiling issues. Including learning about np.float64.
+3. Hopefully, since I am home I will be able to fix the code in the next couple days. Perhaps after a meeting with Allanah.

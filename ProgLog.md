@@ -203,3 +203,17 @@ After implementing step 3, I was able to get rid of the runtime warning, but the
 1. I wasn't able to fix the code to achieve the variable outputs we were looking for.
 2. I did explore several new angles not previously considered when running into compiling issues. Including learning about np.float64.
 3. Hopefully, since I am home I will be able to fix the code in the next couple days. Perhaps after a meeting with Allanah.
+
+-------------------------------------------------------------
+
+# Tuesday 12th November
+Apologies for the gap in updates, I have been very busy with my new courses and other commitments.
+
+After careful consideration, Allanah and I have decided to temporarily pause the research project. This decision comes as we both face increasing commitments - Allanah with her PhD research duties at the University of Edinburgh, and myself with other academic responsibilities. While we weren't able to fully resolve the CotransporterFlux function issues outlined in the previous entry, we both remain very interested in the theoretical framework we've developed and the potential insights our model could provide.
+The work we've done so far in developing and analyzing the pump-leak model, particularly our exploration of non-linear relationships and the Goldman-Hodgkin-Katz equation, has laid a strong foundation. We're both hopeful about returning to this project in the future to formalize our findings and complete a proper write-up of the solution to this model, especially given its potential applications in understanding ion transport across cell membranes.
+
+### TL;DR | Main takeaways:
+1. Project is temporarily paused due to timing constraints on both sides
+2. The theoretical framework and preliminary results show promise
+3. Both supervisor and I remain interested in eventually formalizing the results and completing the model solution
+4. The experience has provided valuable insights into mathematical modeling of biological systems, particularly regarding ion transport mechanisms
